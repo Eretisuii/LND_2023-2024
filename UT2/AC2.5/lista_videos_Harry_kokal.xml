@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE lista_videos [
+<!ELEMENT lista_videos (video)*>
+<!ELEMENT video (titulo,canal,visualizaciones,fecha_subida,comentarios)>
+<!ELEMENT titulo (#PCDATA)>
+<!ELEMENT canal (#PCDATA)>
+<!ELEMENT visualizaciones (#PCDATA)>
+<!ELEMENT fecha_subida (#PCDATA)>
+<!ELEMENT comentarios (comentario*)>
+<!ELEMENT comentario (#PCDATA | usuario | enlace)*>
+<!ELEMENT usuario (#PCDATA)>
+<!ELEMENT enlace (#PCDATA)>
+]>
+
+
+<lista_videos>
+  <video>
+    <titulo>La vida del Programador</titulo>  
+    <canal>Todo no es programar</canal>
+    <visualizaciones>1231231</visualizaciones>
+    <fecha_subida>20-10-2000</fecha_subida>
+    <comentarios>
+      <comentario>
+        El mejor video que he visto
+        <usuario>Luis Antonio</usuario>
+      </comentario>
+      <comentario>
+        Este video está en todos sitios...
+        <usuario>Luis Antonio</usuario>
+        <enlace>www.enlace.com</enlace>
+      </comentario>
+    </comentarios>
+  </video>
+</lista_videos>

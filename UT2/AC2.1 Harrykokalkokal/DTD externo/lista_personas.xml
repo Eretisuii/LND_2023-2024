@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE lista_personas SYSTEM "lista_personas.dtd">
+<lista_personas>
+  <persona >
+    <nombre>Luis</nombre> 
+    <primer_apellido>Gómez</primer_apellido>
+    <segundo_apellido>Díaz</segundo_apellido>
+    <fecha_nacimiento>
+      <dia>4</dia> 
+      <mes>9</mes>
+      <anyo>1998</anyo>
+    </fecha_nacimiento>
+    <sexo/>
+    <numero_seguridadsocia/>
+  </persona>
+  <persona>
+    <nombre>Harry</nombre> 
+    <primer_apellido>Kokal</primer_apellido>
+    <segundo_apellido>Kokal</segundo_apellido>
+    <fecha_nacimiento>
+      <dia>5</dia> 
+      <mes>9</mes>
+      <anyo>2002</anyo>
+    </fecha_nacimiento>
+    <sexo/>
+    <numero_seguridadsocia/>
+  </persona>
+  <persona>
+    <nombre>Tim</nombre> 
+    <primer_apellido>Berners</primer_apellido>
+    <segundo_apellido>Lee</segundo_apellido>
+    <fecha_nacimiento>
+      <dia>8</dia> 
+      <mes>6</mes>
+      <anyo>1955</anyo>
+    </fecha_nacimiento>
+    <sexo/>
+    <numero_seguridadsocia/>
+  </persona>
+</lista_personas>

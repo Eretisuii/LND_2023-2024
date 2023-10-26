@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<equipos_de_futbol>
+   <equipo>
+      <nombre>Barcelona</nombre>
+      <ciudad>Barcelona </ciudad>
+      <entrenador></entrenador>
+      <jugadores>
+         <jugador posicion="Delantero">
+            <nombre>Ousmane Dembélé</nombre>
+            <nacionalidad>Francia</nacionalidad>
+         </jugador>
+         <jugador posicion="medio">
+            <nombre>Gavi</nombre>
+            <nacionalidad>española</nacionalidad>
+         </jugador>
+      </jugadores>
+   </equipo>
+   <equipo>
+      <nombre>Real Madrid</nombre>
+      <ciudad>Madrid</ciudad>
+      <entrenador></entrenador>
+      <jugadores>
+         <jugador posicion="portero">
+            <nombre> Kepa Arrizabalaga</nombre>
+            <nacionalidad>española</nacionalidad>
+         </jugador>
+         <jugador posicion="defensa">
+            <nombre>Éder Militão</nombre>
+            <nacionalidad>brasil</nacionalidad>
+         </jugador>
+      </jugadores>
+   </equipo>
+</equipos_de_futbol>

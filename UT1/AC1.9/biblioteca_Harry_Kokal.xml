@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<biblioteca>
+  <ejemplar tipo_ejemplar="libro">
+    <datos_ejemplar>
+      <isbn></isbn>
+      <edicion></edicion>
+      <paginas></paginas>
+      <autores>
+        <autor nombre=""></autor>
+        <autor nombre=""></autor>
+      </autores>
+    </datos_ejemplar>
+    <prestamos_realizados nombre_lector="">
+      <fecha_prestamo>
+      <dia></dia>
+      <mes></mes>
+      <anyo></anyo>
+      </fecha_prestamo>
+      <fecha_devolucion>
+      <dia></dia>
+      <mes></mes>
+      <anyo></anyo>
+      </fecha_devolucion>
+    </prestamos_realizados>
+  </ejemplar>
+</biblioteca>

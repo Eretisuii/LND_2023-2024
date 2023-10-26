@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<mensaje>
+  <remite>
+    <nombre>Carlos Peña</nombre>
+    <email>carlospe@genial.com</email>
+  </remite>
+  <destinatario>
+    <nombre>Pepe Gotera</nombre>
+    <email>pepe.got@hotdog.com</email>
+  </destinatario>
+  <asunto>Hola pepe</asunto>
+  <texto>
+    <parrafo>
+    A ver cuando quedamos para estudiar
+    </parrafo>
+    <parrafo>
+    También tenemos q cavar la viña
+    </parrafo>
+  </texto>
+
+
+
+
+
+
+
+
+
+
+
+
+</mensaje>

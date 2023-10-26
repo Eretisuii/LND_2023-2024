@@ -1,0 +1,7 @@
+<!ELEMENT libro (titulo,autor,seccion*)>
+<!ELEMENT titulo (#PCDATA)>
+<!ELEMENT autor (#PCDATA)>
+<!ELEMENT seccion (nombre,contenido)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT contenido (parrafo*)>
+<!ELEMENT parrafo (#PCDATA)>

@@ -1,0 +1,11 @@
+<!ELEMENT lista_personas (persona*)>
+<!ELEMENT persona (nombre,primer_apellido,segundo_apellido,fecha_nacimiento,sexo,numero_seguridadsocia)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT primer_apellido (#PCDATA)>
+<!ELEMENT segundo_apellido (#PCDATA)>
+<!ELEMENT fecha_nacimiento (dia,mes,anyo)>
+<!ELEMENT dia (#PCDATA)>
+<!ELEMENT mes (#PCDATA)>
+<!ELEMENT anyo (#PCDATA)>
+<!ELEMENT sexo (#PCDATA)>
+<!ELEMENT numero_seguridadsocia (#PCDATA)>

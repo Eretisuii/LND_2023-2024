@@ -1,0 +1,4 @@
+<!ELEMENT pedido (producto*)>
+<!ELEMENT producto (nombre,cantidad)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT cantidad (#PCDATA)>

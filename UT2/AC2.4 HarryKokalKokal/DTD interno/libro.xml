@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE libro[
+  <!ELEMENT libro (titulo,autor,seccion*)>
+  <!ELEMENT titulo (#PCDATA)>
+  <!ELEMENT autor (#PCDATA)>
+  <!ELEMENT seccion (nombre,contenido)>
+  <!ELEMENT nombre (#PCDATA)>
+  <!ELEMENT contenido (parrafo*)>
+  <!ELEMENT parrafo (#PCDATA)>
+]>
+<libro>
+  <titulo>La primavera</titulo>
+  <autor>Juan Flores</autor>
+  <seccion>
+    <nombre>Introduccion</nombre>
+    <contenido>
+      <parrafo>Esta es la introduccion</parrafo>
+    </contenido>
+  </seccion>
+  <seccion>
+    <nombre>Conclusiones</nombre>
+    <contenido>
+      <parrafo>Las flores salen</parrafo>
+      <parrafo>La sangre se altera</parrafo>
+    </contenido>
+  </seccion>
+</libro>

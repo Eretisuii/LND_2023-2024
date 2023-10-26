@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<cafeteria>
+  <carta>
+    <bebidas>
+      <bebida tipo="caliente">
+        <nombre>Expresso</nombre>
+        <precio lugar="barra">1.25</precio>
+        <precio lugar="mesa" >1.55</precio>
+      </bebida>
+      <bebida tipo="frias">
+        <nombre>Zumo naranja natural</nombre>
+        <precio lugar="barra">2.30</precio>
+        <precio lugar="mesa" >2.60</precio>
+      </bebida>
+      <bebida tipo="refrescos">
+        <nombre>Coca-cola/fanta/ tónical</nombre>
+        <precio lugar="barra">1.90</precio>
+        <precio lugar="mesa" >2.30</precio>
+      </bebida>
+      <bebida tipo="Cerveza">
+        <nombre>Cañal</nombre>
+        <precio lugar="barra">1.60</precio>
+        <precio lugar="mesa" >1.90</precio>
+      </bebida>
+    </bebidas>
+    <comidas>
+      <comida tipo="bolleria">
+        <nombre>Crossant</nombre>
+        <precio lugar="barra">1.60</precio>
+        <precio lugar="mesa" >1.90</precio>
+    </comida>
+    
+    </comidas>
+  </carta>
+</cafeteria>

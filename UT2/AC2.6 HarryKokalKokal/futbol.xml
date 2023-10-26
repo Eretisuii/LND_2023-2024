@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE futbol SYSTEM "futbol.dtd">
+<futbol>
+  <jugador nombre="Alfredo Di Stéfano" codigo="ads"/>
+  <jugador nombre="Edison Arantes do Nascimento" codigo="ean"/>
+  <jugador nombre="Diedo Armado Maradona" codigo="dam"/>
+  <jugador nombre="Johan Cruyff" codigo="jc"/>
+  <equipo nombre="Società Sportiva Calcio Napoli" jugadores="dam"/>
+  <equipo nombre="Futbol Club Barcelona" jugadores="jc dam"/>
+</futbol>

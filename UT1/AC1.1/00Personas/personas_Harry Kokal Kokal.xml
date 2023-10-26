@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<personas>
+  <persona codigo="1">
+    <nombre>Luis</nombre> 
+    <primer_apellido>Gómez</primer_apellido>
+    <segundo_apellido>Díaz</segundo_apellido>
+    <edad>33</edad>
+  </persona>
+  <persona codigo="2">
+    <nombre>Harry</nombre> 
+    <primer_apellido>Kokal</primer_apellido>
+    <segundo_apellido>Kokal</segundo_apellido>
+    <edad>21</edad>
+  </persona>
+</personas>

@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<concesionario>
+  <coche codigo="1">
+    <marca>FIAT</marca>
+    <modelo>500</modelo>
+    <motor>1.2</motor>
+    <matricula>2752HGN</matricula>
+    <kilometros>80000</kilometros>
+    <precio_original>12.900</precio_original>
+    <precio_oferta >3.999</precio_oferta>
+    <extras>Lunas Tintadas</extras>
+    <extras>Ruedas deportivas</extras>
+    <fotos></fotos>
+  </coche>
+</concesionario>

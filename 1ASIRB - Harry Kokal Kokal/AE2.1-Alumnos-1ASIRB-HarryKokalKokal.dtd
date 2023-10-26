@@ -1,0 +1,30 @@
+<!ELEMENT alumnos (alumno*)>
+<!ELEMENT alumno (nombre, apellidos,direccion,telefonos,equipo_deportivo?,aficion*,origen,comentario*,notas,altura?,ayudados?)>
+<!ELEMENT direccion (calle,ciudad)>
+<!ELEMENT calle EMPTY>
+<!ATTLIST calle tipo CDATA #REQUIRED>
+<!ATTLIST calle nombre CDATA #REQUIRED>
+<!ATTLIST calle numero CDATA #REQUIRED>
+<!ELEMENT telefonos (telefono_alumno, ((telefono_madre,telefono_padre) | telefono_tutor))>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT apellidos (#PCDATA)>
+<!ELEMENT equipo_deportivo (#PCDATA)>
+<!ELEMENT aficion (#PCDATA)>
+<!ELEMENT ciudad (#PCDATA)>
+<!ELEMENT telefono_alumno (#PCDATA)>
+<!ELEMENT telefono_madre (#PCDATA)>
+<!ELEMENT telefono_padre (#PCDATA)>
+<!ELEMENT telefono_tutor (#PCDATA)>
+<!ELEMENT origen EMPTY>
+<!ATTLIST origen nacimiento (extranjero | español) "español" >
+<!ELEMENT comentario (#PCDATA)>
+<!ELEMENT notas ((evalucion | texto), nota)>
+<!ELEMENT evalucion (#PCDATA)>
+<!ELEMENT nota (#PCDATA)>
+<!ELEMENT texto (#PCDATA)>
+<!ATTLIST alumno id ID #REQUIRED>
+<!ELEMENT altura EMPTY>
+<!ATTLIST altura cm CDATA #REQUIRED>
+<!ATTLIST alumno sexo (hombre | mujer | ns) "ns">
+<!ELEMENT ayudados EMPTY>
+<!ATTLIST ayudados por IDREFS #REQUIRED>

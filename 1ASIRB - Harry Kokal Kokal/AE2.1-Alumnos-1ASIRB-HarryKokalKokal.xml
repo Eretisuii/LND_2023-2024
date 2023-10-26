@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE alumnos SYSTEM "AE2.1-Alumnos-1ASIRB-HarryKokalKokal.dtd">
+
+<alumnos>
+  <alumno id="HKK" sexo="hombre">
+    <nombre>Harry</nombre>
+    <apellidos>Kokal Kokal</apellidos>
+    <direccion>
+      <calle tipo="calle" nombre="Bill Evans" numero="4"/>
+      <ciudad>Badajoz</ciudad>
+    </direccion>
+    <telefonos>
+      <telefono_alumno>789456123</telefono_alumno>
+      <telefono_madre>987654321</telefono_madre>
+      <telefono_padre>741852963</telefono_padre>
+    </telefonos>
+    <equipo_deportivo>Fútbol Club Barcelona</equipo_deportivo>
+    <aficion>jugar al fc24</aficion>
+    <aficion>estudiar 24h xml</aficion>
+    <origen/>
+    <comentario>Chico aplicado</comentario>
+    <notas>
+      <evalucion>primera</evalucion>
+      <nota>10</nota>
+    </notas>
+    <altura cm="170"/>
+  </alumno>
+  <alumno id="LGD" sexo="hombre">
+  <nombre>Luis</nombre>
+  <apellidos>Gómez Díaz</apellidos>
+  <direccion>
+    <calle tipo="avenida" nombre="Bill Evans" numero="4"/>
+    <ciudad>Santa cruz</ciudad>
+  </direccion>
+  <telefonos>
+    <telefono_alumno>987465464</telefono_alumno>
+    <telefono_madre>354867484</telefono_madre>
+    <telefono_padre>945984664</telefono_padre>
+  </telefonos>
+  <origen nacimiento="extranjero"/>
+  <notas>
+    <evalucion>segunda</evalucion>
+    <nota>1</nota>
+  </notas>
+  <altura cm="189"/>
+  <ayudados por="HKK"/>
+  </alumno>
+  <alumno id="JFB" sexo="hombre">
+  <nombre>Juan</nombre>
+  <apellidos>Frances Blanco</apellidos>
+  <direccion>
+    <calle tipo="calle" nombre="Jesus y Melo" numero="4"/>
+    <ciudad>Santa cruz</ciudad>
+  </direccion>
+  <telefonos>
+    <telefono_alumno>987465464</telefono_alumno>
+    <telefono_madre>354867484</telefono_madre>
+    <telefono_padre>945984664</telefono_padre>
+  </telefonos>
+  <origen/>
+  <notas>
+    <evalucion>primera</evalucion>
+    <nota>9</nota>
+  </notas>
+  <altura cm="179"/>
+  <ayudados por="HKK"/>
+  </alumno>
+  <alumno id="MFB" sexo="hombre">
+  <nombre>Marco</nombre>
+  <apellidos>Frances Blanco</apellidos>
+  <direccion>
+    <calle tipo="calle" nombre="Jesus" numero="9"/>
+    <ciudad>Santa cruz</ciudad>
+  </direccion>
+  <telefonos>
+    <telefono_alumno>987465464</telefono_alumno>
+    <telefono_madre>354867484</telefono_madre>
+    <telefono_padre>945984664</telefono_padre>
+  </telefonos>
+  <origen/>
+  <notas>
+    <evalucion>primera</evalucion>
+    <nota>5</nota>
+  </notas>
+  <altura cm="174"/>
+  <ayudados por="HKK"/>
+  </alumno>
+  <alumno id="JJL" sexo="mujer">
+  <nombre>Juan</nombre>
+  <apellidos>Jesus Lorca</apellidos>
+  <direccion>
+    <calle tipo="calle" nombre="prince de españa" numero="8"/>
+    <ciudad>Santa cruz</ciudad>
+  </direccion>
+  <telefonos>
+    <telefono_alumno>987465464</telefono_alumno>
+    <telefono_madre>354867484</telefono_madre>
+    <telefono_padre>945984664</telefono_padre>
+  </telefonos>
+  <origen/>
+  <notas>
+    <evalucion>primera</evalucion>
+    <nota>6</nota>
+  </notas>
+  <altura cm="169"/>
+  <ayudados por="HKK"/>
+  </alumno>
+</alumnos>

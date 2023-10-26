@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pedido[
+  <!ELEMENT pedido (producto*)>
+  <!ELEMENT producto (nombre,cantidad)>
+  <!ELEMENT nombre (#PCDATA)>
+  <!ELEMENT cantidad (#PCDATA)>
+]>
+<pedido>
+  <producto>
+    <nombre>rotulador RX2</nombre>
+    <cantidad>20</cantidad>
+  </producto>
+  <producto>
+    <nombre>Grapadora Lin</nombre>
+    <cantidad>2</cantidad>  
+  </producto>
+</pedido>

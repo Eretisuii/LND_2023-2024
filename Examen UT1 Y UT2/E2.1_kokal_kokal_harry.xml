@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE supermercados SYSTEM "E2.1_kokal_kokal_harry.dtd">
+<supermercados>
+    <supermercado>
+        <articulos>
+            <articulo codigo="1">
+                <nombre>Leche</nombre>
+                <descripcion>freca</descripcion>
+                <marca>Puleva</marca>
+                <cantidad medida="litros">1.5</cantidad>
+                <seccion>lacteo</seccion>
+                <precio moneda="euro">1</precio>
+                <ofertas>
+                    <oferta comienzo="22/06/2002" final="10/25/2555">hola</oferta>
+                </ofertas>
+                <perecedero>
+                    <fecha_fabricación></fecha_fabricación>
+                    <fecha_caducidad></fecha_caducidad>
+                </perecedero>
+            </articulo>
+            <articulo codigo="2">
+                <nombre>Leche</nombre>
+                <descripcion>natural</descripcion>
+                <cantidad medida="gramos">1.5</cantidad>
+                <seccion>
+                    <sub_seccion>lacteo</sub_seccion>
+                </seccion>
+                <precio moneda="dólar">1</precio>
+                <ofertas>
+                    <oferta comienzo="22/06/2002" final="10/25/2555">hola</oferta>
+                </ofertas>
+                <perecedero>
+                    <fecha_fabricación></fecha_fabricación>
+                    <fecha_caducidad></fecha_caducidad>
+                </perecedero>
+            </articulo>
+            <articulo codigo="3">
+                <nombre>Leche</nombre>
+                <descripcion>natural</descripcion>
+                <cantidad medida="unidades">1</cantidad>
+                <seccion>lacteo
+                    <sub_seccion>lacteo</sub_seccion>
+                </seccion>
+                <precio moneda="dólar">1</precio>
+                <ofertas>
+                    <oferta comienzo="22/06/2002" final="10/25/2555">hola</oferta>
+                </ofertas>
+                <perecedero>
+                    <fecha_fabricación></fecha_fabricación>
+                    <fecha_caducidad></fecha_caducidad>
+                </perecedero>
+            </articulo>
+        </articulos>
+    </supermercado>
+</supermercados>

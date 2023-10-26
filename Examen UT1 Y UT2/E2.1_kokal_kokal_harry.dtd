@@ -1,0 +1,29 @@
+<!ELEMENT supermercados (supermercado)+>
+    <!ATTLIST supermercado nombre CDATA #IMPLIED>
+
+<!ELEMENT supermercado (articulos)>
+<!ELEMENT articulos (articulo)+>
+    <!ATTLIST articulo codigo NMTOKENS #REQUIRED>
+
+<!ELEMENT articulo (nombre,descripcion,marca?,cantidad,seccion,precio,ofertas,perecedero)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT descripcion (#PCDATA)>
+<!ELEMENT marca (#PCDATA)>
+
+<!ELEMENT cantidad (#PCDATA)>
+    <!ATTLIST cantidad medida (litros|gramos|unidades) #REQUIRED>
+
+<!ELEMENT seccion (#PCDATA|sub_seccion)*>
+<!ELEMENT sub_seccion (#PCDATA)>
+
+<!ELEMENT precio (#PCDATA)>
+    <!ATTLIST precio moneda (euro|dólar) #REQUIRED>
+
+<!ELEMENT ofertas (oferta)*>
+<!ELEMENT oferta (#PCDATA)>
+    <!ATTLIST oferta comienzo CDATA #REQUIRED>
+    <!ATTLIST oferta final CDATA #REQUIRED>
+
+<!ELEMENT perecedero (fecha_fabricación,fecha_caducidad)>
+<!ELEMENT fecha_fabricación (#PCDATA)>
+<!ELEMENT fecha_caducidad (#PCDATA)>

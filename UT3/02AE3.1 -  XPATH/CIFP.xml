@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<centroFormativo>
+    <nombre>CIFP César Manrique</nombre>
+    <pais>España</pais>
+
+<!-- CICLOS FORMATIVO -->
+    <ciclos>
+        <ciclo id="c01">
+            <nombre>Desarrollo de Aplicaciones Multiplataforma</nombre>
+            <plan>2003</plan>
+            <duracion>250</duracion>
+            <departamento>Informática y Comunicaciones</departamento>
+        </ciclo>
+
+        <ciclo id="c02">
+            <nombre>Comercio Internacional</nombre>
+            <plan>2001</plan>
+            <duracion>275</duracion>
+            <departamento>Comercio y Marketing</departamento>
+        </ciclo>
+
+        <ciclo id="c03">
+            <nombre>Marketing y Publicidad</nombre>
+            <plan>2001</plan>
+            <duracion>280</duracion>
+            <departamento>Comercio y Marketing</departamento>
+            <jefe_departamento>Alfonso Martín Luque</jefe_departamento>
+        </ciclo>
+
+        <ciclo id="c04">
+            <nombre>Mantenimiento Electrónico</nombre>
+            <plan>2003</plan>
+            <duracion>175</duracion>
+            <departamento>Electricidad y Electrónica</departamento>
+        </ciclo>
+
+        <ciclo id="c05">
+            <nombre>Sistemas Electrotécnicos y Automatizados</nombre>
+            <plan>2001</plan>
+            <duracion>175</duracion>
+            <departamento>Electricidad y Electrónica</departamento>
+        </ciclo>
+
+        <ciclo id="c06">
+            <nombre>Animaciones 3D, Juegos y Entorno Interactivos</nombre>
+            <plan>1980</plan>
+            <duracion>475</duracion>
+            <departamento>Imagen y Sonido</departamento>
+        </ciclo>
+    </ciclos>
+    
+<!-- modulos -->
+    <modulos>
+        <modulo id="a01" titulacion="c01">
+            <nombre>Base de Datos</nombre>
+            <duracion_teoricos>3</duracion_teoricos>
+            <duracion_practicos>1.5</duracion_practicos>
+            <trimestre>1</trimestre>
+        </modulo>
+
+        <modulo id="a02" titulacion="c01">
+            <nombre>Programación</nombre>
+            <duracion_teoricos>6</duracion_teoricos>
+            <duracion_practicos>1.5</duracion_practicos>
+            <trimestre>2</trimestre>
+        </modulo>
+
+        <modulo id="a03" titulacion="c02">
+            <nombre>Gestión Internacional</nombre>
+            <duracion_teoricos>4</duracion_teoricos>
+            <duracion_practicos>1.5</duracion_practicos>
+            <trimestre>1</trimestre>
+        </modulo>
+
+        <modulo id="a04" titulacion="c02">
+            <nombre>Derecho Internacional</nombre>
+            <duracion_teoricos>4</duracion_teoricos>
+            <duracion_practicos>5</duracion_practicos>
+            <trimestre>1</trimestre>
+        </modulo>
+
+        <modulo id="a05" titulacion="c04">
+            <nombre>Principios de Electrónica General</nombre>
+            <duracion_teoricos>4</duracion_teoricos>
+            <duracion_practicos>1.5</duracion_practicos>
+            <trimestre>2</trimestre>
+        </modulo>
+
+        <modulo id="a06" titulacion="c03">
+            <nombre>El Marketing del Escaparate</nombre>
+            <duracion_teoricos>4</duracion_teoricos>
+            <duracion_practicos>3</duracion_practicos>
+            <trimestre>2</trimestre>
+        </modulo>
+
+        <modulo id="a07" titulacion="c04">
+            <nombre>Electrónica Digital</nombre>
+            <duracion_teoricos>1.5</duracion_teoricos>
+            <duracion_practicos>7.5</duracion_practicos>
+            <trimestre>2</trimestre>
+        </modulo>
+
+        <modulo id="a08" titulacion="c01">
+            <nombre>Lenguajes de Marcas</nombre>
+            <duracion_teoricos>4.5</duracion_teoricos>
+            <duracion_practicos>5.5</duracion_practicos>
+            <trimestre>1</trimestre>
+        </modulo>
+
+        <modulo id="a09" titulacion="c06">
+            <nombre>Diseño 3D</nombre>
+            <duracion_teoricos>6</duracion_teoricos>
+            <duracion_practicos>0</duracion_practicos>
+            <trimestre>2</trimestre>
+        </modulo>
+    </modulos>
+    
+    <!-- ALUMNOS -->
+    <alumnos>
+        <alumno id="e01" beca="no">
+            <apellido1>Rivas</apellido1>
+            <apellido2>Santos</apellido2>
+            <nombre>Víctor Manuel</nombre>
+            <sexo>Hombre</sexo>
+            <estudios>
+                <ciclo codigo="c01"/>
+                <modulos>
+                    <modulo codigo="a01"/>
+                    <modulo codigo="a03"/>
+                    <modulo codigo="a05"/>
+                    <modulo codigo="a09"/>
+                </modulos>
+            </estudios>
+        </alumno>
+
+        <alumno id="e02" beca="si">
+            <apellido1>Pérez</apellido1>
+            <apellido2>García</apellido2>
+            <nombre>Luisa</nombre>
+            <sexo>Mujer</sexo>
+            <estudios>
+                <ciclo codigo="c02"/>
+                <modulos>
+                    <modulo codigo="a02"/>
+                    <modulo codigo="a01"/>
+                </modulos>
+                <proyecto>Web de IBM.com</proyecto>
+            </estudios>
+        </alumno>
+
+        <alumno id="e03" beca="si">
+            <apellido1>Gómez</apellido1>
+            <apellido2>Romero</apellido2>
+            <nombre>Fernando</nombre>
+            <sexo>Hombre</sexo>
+            <estudios>
+                <ciclo codigo="c02"/>
+                <modulos>
+                    <modulo codigo="a02"/>
+                    <modulo codigo="a01"/>
+                    <modulo codigo="a04"/>
+                    <modulo codigo="a09"/>
+                </modulos>
+            </estudios>
+        </alumno>
+
+        <alumno id="e04" beca="no">
+            <apellido1>Avalón</apellido1>
+            <apellido2>Jiménez</apellido2>
+            <nombre>María</nombre>
+            <sexo>Mujer</sexo>
+            <estudios>
+                <ciclo codigo="c01"/>
+                <modulos>
+                    <modulo codigo="a02"/>
+                    <modulo codigo="a01"/>
+                    <modulo codigo="a07"/>
+                </modulos>
+                <proyecto>Estudio de Salinidad del Pantano Iris</proyecto>
+            </estudios>
+        </alumno>
+    </alumnos>
+</centroFormativo>

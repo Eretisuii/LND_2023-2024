@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<empresa>
+  <departamento telefono="713388">
+    <id>A80</id>  
+    <nombre>SAC</nombre>
+    <empleado salario="200000">
+      <cod>383829829</cod>
+      <nombre>Luis Zote</nombre>
+    </empleado>
+    <empleado salario="430000">
+      <cod>321181</cod>
+      <nombre>Raul Pitre</nombre>
+    </empleado>
+  </departamento>
+  
+  <departamento telefono="728833">
+    <id>99A</id>  
+    <nombre>SIEM</nombre>
+    <empleado salario="100000">
+      <cod>8322</cod>
+      <nombre>Miguel Paez</nombre>
+    </empleado>
+  </departamento>
+</empresa>

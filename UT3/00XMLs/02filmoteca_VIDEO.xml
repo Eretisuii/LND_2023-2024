@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<filmoteca>
+    <pelicula estreno="1942" minutos="102">
+        <titulo>Casablanca</titulo>
+        <director>Michael Curtiz</director>
+        <guion>
+            <guionista>Julius J. Epstein</guionista>
+            <guionista>Philip G. Epstein</guionista>
+            <guionista>Howard Koch</guionista>
+        </guion>
+        <reparto>
+            <interprete papel="protagonista">Humphrey Bogart</interprete>
+            <interprete papel="protagonista">Ingrid Bergman</interprete>
+            <interprete papel="secundario">Paul Henreid</interprete>
+            <interprete papel="secundario">Claude Rains</interprete>
+            <interprete papel="secundario">Conrad Veidt</interprete>
+            <interprete papel="secundario">Curt Bois</interprete>
+        </reparto>
+        <esloganes>
+            <eslogan>El mito hecho celuloide</eslogan>
+            <eslogan>La obra maestra absoluta</eslogan>
+            <eslogan>Puede que nunca se haga una película mejor</eslogan>
+        </esloganes>
+    </pelicula>
+
+    <pelicula estreno="1960" minutos="125">
+        <titulo>El apartamento</titulo>
+        <director>Billy Wilder</director>
+        <guion>
+            <guionista>Billy Wilder</guionista>
+            <guionista>I.A.L. Diamond</guionista>
+        </guion>
+        <reparto>
+            <interprete papel="protagonista">Jack Lemmon</interprete>
+            <interprete papel="protagonista">Shirley MacLaine</interprete>
+            <interprete papel="secundario">Ray Walston</interprete>
+            <interprete papel="secundario">Edie Adams</interprete>
+        </reparto>
+
+        <esloganes>
+            <eslogan>La obra maestra del genio Wilder</eslogan>
+            <eslogan>Para los que no creemos en Dios pero creemos en Billy Wilder</eslogan>
+            <eslogan>Perfecta para hacerme reír y llorar</eslogan>
+        </esloganes>
+    </pelicula>
+    
+    <pelicula estreno="1981" minutos="123">
+        <titulo>Carros de fuego</titulo>
+        <director>Hugh Hudson</director>
+        <guion>
+            <guionista>Colin Welland</guionista>
+        </guion>
+        <reparto>
+            <interprete papel="protagonista">Ian Charleson</interprete>
+            <interprete papel="protagonista">Ben Cross</interprete>
+            <interprete papel="secundario">Lindsay Anderson</interprete>
+            <interprete papel="secundario">John Gielgud</interprete>
+            <interprete papel="secundario">Ian Holm</interprete>
+        </reparto>
+
+        <esloganes>
+            <eslogan>Una película que conmueve profundamente</eslogan>
+            <eslogan>Es un filme excepcional sobre gente excepcional</eslogan>
+            <eslogan>Perfecta para hacerme reír y llorar</eslogan>
+        </esloganes>
+    </pelicula>
+    <pelicula estreno="1958" minutos="103">
+        <titulo>El rebelde orgulloso</titulo>
+        <director>Michael Curtiz</director>
+        <guion>
+            <guionista>Josep Petracca</guionista>
+            <guionista>Lillie Hayward</guionista>
+        </guion>
+        <reparto>
+            <interprete papel="protagonista">Alan Ladd Charleson</interprete>
+            <interprete papel="protagonista">Olivia de Havilland</interprete>
+            <interprete papel="secundario">Dean Jagger</interprete>
+            <interprete papel="secundario">David Ladd</interprete>
+            <interprete papel="secundario">Cecil Kellaway</interprete>
+        </reparto>
+
+        <esloganes>
+            <eslogan>Un maravilloso acto de rebeldía</eslogan>
+        </esloganes>
+    </pelicula>
+    <pelicula estreno="1981" minutos="123">
+        <titulo>Indiana Jones en busca del arca perdida</titulo>
+        <director>Steven Spielberg</director>
+        <guion>
+            <guionista>Lawrence Kasdan</guionista>
+            <guionista>George Lucas</guionista>
+        </guion>
+        <reparto>
+            <interprete papel="protagonista">Harrison Ford</interprete>
+            <interprete papel="protagonista">Karen Allen</interprete>
+            <interprete papel="secundario">Paul Freeman</interprete>
+            <interprete papel="secundario">Ronald Lacey</interprete>
+        </reparto>
+
+        <esloganes>
+            <eslogan>Una película que conmueve profundamente</eslogan>
+            <eslogan>Es un filme excepcional sobre gente excepcional</eslogan>
+            <eslogan>Perfecta para hacerme reír y llorar</eslogan>
+        </esloganes>
+    </pelicula>
+    <!-- otras peliculas -->
+</filmoteca>

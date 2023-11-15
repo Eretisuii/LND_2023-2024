@@ -1,0 +1,14 @@
+h1, p {
+    color:blueviolet;
+    background-color: black;
+}
+
+p{
+    border: 3px solid red;
+    text-align: justify;
+    width: 200px;
+    font-size: 20px;
+    padding: 30px;
+    margin: 40px auto; /* top/botton left/right*/
+    /*padding-left: 60px;*/
+}

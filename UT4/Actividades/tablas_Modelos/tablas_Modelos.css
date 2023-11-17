@@ -13,7 +13,6 @@ table{
     border-collapse: collapse;
 }
 
-
 td{
     border: 1px solid black;
     background-color: coral;
@@ -22,4 +21,13 @@ td{
     padding: 8px;
     text-align: left;
     font-weight: normal;
+    text-align: center;
+}
+
+.rojo{
+    background-color: red;
+}
+
+.negro{
+    background-color: black;
 }

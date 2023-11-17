@@ -5,33 +5,6 @@ h1{
     text-align: center;
 }
 
-h2{
-    color: white;
-    background-color: crimson;
-}
-
-table{
-    margin: 0px;
-    border-collapse: collapse;
-    margin: auto;
-}
-
-td{
-    border: 1px solid black;
-    text-align: center;
-    padding: 5px 10px;
-}
-
 dl{
-    text-align: center;
-}
-
-.negro-blanco{
-    color: white;
-    background-color: black;
-}
-
-.verde{
-    color: white;
-    background-color: green; 
+    font-weight: bold;
 }

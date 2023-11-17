@@ -2,3 +2,24 @@ h1{
     color: white;
     background-color: black;
 }
+
+h2{
+    color: white;
+    background-color: red;
+}
+
+table{
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+
+
+td{
+    border: 1px solid black;
+    background-color: coral;
+    width: 20px;
+    font-size: 20px;
+    padding: 8px;
+    text-align: left;
+    font-weight: normal;
+}

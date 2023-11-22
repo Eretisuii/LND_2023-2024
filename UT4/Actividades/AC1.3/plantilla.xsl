@@ -28,10 +28,10 @@
     </xsl:template>
     <xsl:template match="ciclo" mode="lista">
         <li>
-        <xsl:value-of select="nombre"/>
-        <xsl:text> (</xsl:text>
-        <xsl:value-of select="decretoTitulo/@año"/>
-        <xsl:text>)</xsl:text>
+            <xsl:value-of select="nombre"/>
+            <xsl:text> (</xsl:text>
+            <xsl:value-of select="decretoTitulo/@año"/>
+            <xsl:text>)</xsl:text>
         </li>
     </xsl:template>
     <xsl:template match="ciclo" mode="tabla">

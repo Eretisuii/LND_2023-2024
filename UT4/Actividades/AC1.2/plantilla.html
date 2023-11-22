@@ -1,0 +1,29 @@
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+        <title>Mostrar Elementos y Atributos</title>
+    </head>
+    <body>
+        <h1>Mostrar Elementos y Atributos</h1>
+        <ul>
+            <li>
+            <xsl:value-of select="//ciclo[1]/nombre"/>
+            <xsl:text> (</xsl:text>
+            <xsl:value-of select="//ciclo[1]/decretoTitulo/@año"/>
+            <xsl:text>)</xsl:text>
+            </li>
+            <li>
+            <xsl:value-of select="//ciclo[2]/nombre"/>
+            <xsl:text> (</xsl:text>
+            <xsl:value-of select="//ciclo[2]/decretoTitulo/@año"/>
+            <xsl:text>)</xsl:text>
+            </li>
+            <li>
+            <xsl:value-of select="//ciclo[3]/nombre"/>
+            <xsl:text> (</xsl:text>
+            <xsl:value-of select="//ciclo[3]/decretoTitulo/@año"/>
+            <xsl:text>)</xsl:text>
+            </li>
+        </ul>
+    </body>
+</html>

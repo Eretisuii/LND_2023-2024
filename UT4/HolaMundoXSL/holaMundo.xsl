@@ -6,7 +6,7 @@
         <head>
             <title>Hola Mundo</title>
             <meta charset="UTF-8"/>
-            <link rel="xsl:stylesheet" href="estilos.css"/>
+            <link rel="stylesheet" href="estilos.css"/>
         </head>
         <body>
             <h1>Hola Mundo!!!!</h1>

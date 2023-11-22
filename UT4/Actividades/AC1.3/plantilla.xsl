@@ -13,7 +13,7 @@
         </body>
     </html>
     </xsl:template>
-    <xsl:template match="ciclo" mode="#default">
+    <xsl:template match="ciclo">
         <ul>
             <li>
             <xsl:value-of select="nombre"/>

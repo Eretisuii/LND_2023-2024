@@ -2,25 +2,42 @@
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0">
     <xsl:output method="html" indent="yes"/>
     <xsl:template match="/"> 
-    <html>
+<html>
         <head>
             <meta charset="UTF-8"/>
-            <title>Apply-Templates</title>
+            <link rel="stylesheet" href="estilos.css"/>
+            <title>Apply-Templates.Mode</title>
         </head>
         <body>
-            <h1>Apply-Templates</h1>
-            <xsl:apply-templates select="//ciclo"/>
+            <h1>Apply-Templates.Mode</h1>
+            <h2>Muestra Lista</h2>
+            <ul>
+                <xsl:apply-templates select="//ciclo" mode="lista"/>
+            </ul>
+
+            <h2>Muestra Tabla</h2>
+            <table>
+                <tr>
+                    <th>Titulo</th>
+                    <th>Año</th>
+                </tr>
+                <xsl:apply-templates select="//ciclo" mode="tabla"/>
+            </table>
         </body>
     </html>
     </xsl:template>
-    <xsl:template match="ciclo">
-        <ul>
-            <li>
+    <xsl:template match="ciclo" mode="lista">
+        <li>
             <xsl:value-of select="nombre"/>
             <xsl:text> (</xsl:text>
             <xsl:value-of select="decretoTitulo/@año"/>
             <xsl:text>)</xsl:text>
-            </li>
-        </ul>
+        </li>
+    </xsl:template>
+    <xsl:template match="ciclo" mode="tabla">
+        <tr>
+            <td><xsl:value-of select="nombre"/></td>
+            <td><xsl:value-of select="decretoTitulo/@año"/></td>
+        </tr>
     </xsl:template>
 </xsl:stylesheet>

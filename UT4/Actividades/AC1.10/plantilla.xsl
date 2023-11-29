@@ -30,6 +30,7 @@
         <tr>
             <td><xsl:value-of select="nombre"/></td>
             <td><xsl:value-of select="decretoTitulo/@año"/></td>
+            <td><xsl:value-of select="grado"/></td>
         </tr>
     </xsl:template>
 </xsl:stylesheet>

@@ -15,16 +15,18 @@
                     <th>Titulo</th>
                     <th>Año</th>
                 </tr>
-            </table>
+                <th>
                 <xsl:for-each select="//ciclo">
                     <xsl:sort select="decretoTitulo/@año" order="descending"/>
-                    <xsl:if test="position() = 1">
+                    <xsl:if test="position() &lt;= 3">
                         <th>
                             <xsl:value-of select="nombre"/>
                             <xsl:value-of select="decretoTitulo/@año"/>
                         </th>
                     </xsl:if>
                 </xsl:for-each>
+                </th>
+            </table>
         </body>
     </html>
     </xsl:template>

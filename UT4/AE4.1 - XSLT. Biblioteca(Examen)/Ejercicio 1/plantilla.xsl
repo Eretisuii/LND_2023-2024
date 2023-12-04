@@ -4,31 +4,28 @@
     <xsl:template match="/"> 
     <html>
         <head>
-            <meta charset="UTF-8"/>
-            <title>Mostrar Elementos y Atributos</title>
+            <meta charset="UTF8"/>
+            <title>Proyecto Web</title>
         </head>
         <body>
-            <h1>Mostrar Elementos y Atributos</h1>
-            <ul>
-                <li>
-                <xsl:value-of select="//ciclo[1]/nombre"/>
-                <xsl:text> (</xsl:text>
-                <xsl:value-of select="//ciclo[1]/decretoTitulo/@año"/>
-                <xsl:text>)</xsl:text>
-                </li>
-                <li>
-                <xsl:value-of select="//ciclo[2]/nombre"/>
-                <xsl:text> (</xsl:text>
-                <xsl:value-of select="//ciclo[2]/decretoTitulo/@año"/>
-                <xsl:text>)</xsl:text>
-                </li>
-                <li>
-                <xsl:value-of select="//ciclo[3]/nombre"/>
-                <xsl:text> (</xsl:text>
-                <xsl:value-of select="//ciclo[3]/decretoTitulo/@año"/>
-                <xsl:text>)</xsl:text>
-                </li>
-            </ul>
+            <h1>Top 3 de libros con más puntuación</h1>
+            <table>
+                <tr>
+                    <th>Posición</th>
+                    <th>Título</th>
+                    <th>Puntos</th>
+                </tr>
+            <xsl:for-each select="//libros">
+            <xsl:sort select="number(puntos)" order="descending"/>
+            <xsl:if test="position() &lt;= 3">
+                <tr>
+                    <td><xsl:value-of select="position()"/></td>
+                    <td><xsl:value-of select="titulo"/></td>
+                    <td><xsl:value-of select="puntos"/></td>
+             </tr>
+            </xsl:if>
+            </xsl:for-each>
+            </table>
         </body>
     </html>
     </xsl:template>

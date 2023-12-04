@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="ejercicio_3.xsl" type="text/xsl"?>
+<biblioteca>
+  <libro>
+    <titulo>La vida está en otra parte</titulo>
+    <autor>Milan Kundera</autor>
+    <fechaPublicacion año="1973"/>
+    <puntos>5</puntos>
+  </libro>
+  <libro>
+    <titulo>Pantaleón y las visitadoras</titulo>
+    <autor fechaNacimiento="28/03/1936">Mario Vargas Llosa</autor>
+    <fechaPublicacion año="1973"/>
+    <puntos>3</puntos>
+  </libro>
+  <libro>
+    <titulo>Conversación en la catedral</titulo>
+    <autor fechaNacimiento="28/03/1936">Mario Vargas Llosa</autor>
+    <fechaPublicacion año="1969"/>
+    <puntos>4</puntos>
+  </libro>
+  <libro>
+    <titulo>Reina Roja</titulo>
+    <autor>Juan Gómez Jurado</autor>
+    <fechaPublicacion año="2010"/>
+    <puntos>4.8</puntos>
+  </libro>
+  <libro>
+    <titulo>Loba Negra</titulo>
+    <autor>Juan Gómez Jurado</autor>
+    <fechaPublicacion año="2014"/>
+    <puntos>4</puntos>
+  </libro>
+  <libro>
+    <titulo>Rey Blanco</titulo>
+    <autor>Juan Gómez Jurado</autor>
+    <fechaPublicacion año="2018"/>
+    <puntos>4.5</puntos>
+  </libro>
+  <libro>
+    <titulo>Crónica de una muerte anunciada</titulo>
+    <autor>Gabriel García Márquez</autor>
+    <fechaPublicacion año="1981"/>
+    <puntos>4</puntos>
+  </libro>
+  <libro>
+    <titulo>La casa de Bernarda Alba</titulo>
+    <autor>GFederico García Lorca</autor>
+    <fechaPublicacion año="1945"/>
+    <puntos>3.5</puntos>
+  </libro>
+  <libro>
+    <titulo>La naranja mecánica</titulo>
+    <autor>Anthony Burgess</autor>
+    <fechaPublicacion año="1965"/>
+    <puntos>4.7</puntos>
+  </libro>
+  <libro>
+    <titulo>El gen egoista</titulo>
+    <autor>Richard Dawkins</autor>
+    <fechaPublicacion año="1976"/>
+    <puntos>4</puntos>
+  </libro>
+  <libro>
+    <titulo>El señor de los anillos. La comunidad del anillo</titulo>
+    <autor>J.R.R Tolkien</autor>
+    <fechaPublicacion año="1954"/>
+    <puntos>4</puntos>
+  </libro>
+  <libro>
+    <titulo>El señor de los anillos. Las dos torres</titulo>
+    <autor>J.R.R Tolkien</autor>
+    <fechaPublicacion año="1954"/>
+    <puntos>3.5</puntos>
+  </libro>
+  <libro>
+    <titulo>El señor de los anillos. El retorno del rey</titulo>
+    <autor>J.R.R Tolkien</autor>
+    <fechaPublicacion año="1954"/>
+    <puntos>4.75</puntos>
+  </libro>
+  <libro>
+    <titulo>Canción de Hielo y Fuego</titulo>
+    <autor>George R.R. Martin</autor>
+    <fechaPublicacion año="1996"/>
+    <puntos>3</puntos>
+  </libro>
+  <libro>
+    <titulo>El sentido común</titulo>
+    <autor>Thomas Paine</autor>
+    <fechaPublicacion año="1776"/>
+    <puntos>4</puntos>
+  </libro>
+</biblioteca>

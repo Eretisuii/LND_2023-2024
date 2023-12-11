@@ -1,0 +1,10 @@
+h1{
+    padding: 5px 10px;
+    color: white;
+    background-color: black;
+    text-align: center;
+}
+
+dl{
+    font-weight: bold;
+}

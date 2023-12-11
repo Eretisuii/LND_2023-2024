@@ -1,0 +1,38 @@
+h1{
+    padding: 5px 10px;
+    color: white;
+    background-color: black;
+    text-align: center;
+}
+
+h2{
+    color: white;
+    background-color: crimson;
+    text-align: center;
+}
+
+table{
+    margin: 0px;
+    border-collapse: collapse;
+    margin: auto;
+}
+
+td{
+    border: 1px solid black;
+    text-align: center;
+    padding: 5px 10px;
+}
+
+dl{
+    text-align: center;
+}
+
+.negro-blanco{
+    color: white;
+    background-color: black;
+}
+
+dd:nth-child(2n){
+    color: white;
+    background-color: green; 
+}

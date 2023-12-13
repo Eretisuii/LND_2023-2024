@@ -24,7 +24,7 @@
             <!--Ordena los libros en orden descendente según la cantidad de libros del autor actual-->
             <xsl:sort select="count($libros[autor = current()/autor])" order="descending" />
             <!--Crea una variable $autor que almacena el valor del autor actual-->
-            <xsl:variable name="autor" select="autor" />
+            <xsl:variable name="autor" select="autor"/>
             <!--Crea una variable $totalLibrosAutor que almacena la cantidad total de libros del autor actual-->
             <xsl:variable name="totalLibros" select="count($libros[autor = $autor])" />
             <!--Crea una variable $porcentaje que almacena el porcentaje de libros del autor actual con respecto al total de libros-->

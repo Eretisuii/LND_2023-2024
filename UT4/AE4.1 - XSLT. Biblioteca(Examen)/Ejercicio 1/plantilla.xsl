@@ -17,12 +17,18 @@
             <th class="negro-blanco">Título</th>
             <th class="negro-blanco">Puntos</th>
         </tr>
+        <!--Inicia un bucle sobre todos los elementos libro-->
         <xsl:for-each select="//libro">
+        <!--Ordena los elementos libro por el valor de la etiqueta puntos en orden descendente (de mayor a menor)-->
         <xsl:sort select="puntos" order="descending"/>
+        <!--Dentro del bucle, verifica si la posición del libro es menor o igual a 3. Solo se cojeran los tres primeros libros después de ordenar-->
         <xsl:if test="position() &lt;= 3">
         <tr>
+            <!-- Muestra la posición del libro en la tabla-->
             <td><xsl:value-of select="position()"/></td>
+            <!--Muestra el título del libro-->
             <td><xsl:value-of select="titulo"/></td>
+            <!--Muestra la puntuación del libro-->
             <td><xsl:value-of select="puntos"/></td>
         </tr>
         </xsl:if>

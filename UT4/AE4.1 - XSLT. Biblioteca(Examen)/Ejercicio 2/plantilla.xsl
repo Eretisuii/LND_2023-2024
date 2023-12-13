@@ -2,6 +2,7 @@
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0">
     <xsl:output method="html" indent="yes"/>
     <xsl:template match="/"> 
+    <!--Harry Kokal Kokal 1ASIR B-->
     <html>
         <head>
             <meta charset="UTF-8"/>
@@ -10,7 +11,6 @@
         </head>
     <body>
     <h1>Estadísticas</h1>
-    
     <dl>
         <!--Inicia un bucle que selecciona todos los elementos biblioteca-->
         <xsl:for-each select="//biblioteca">

@@ -1,0 +1,27 @@
+-- Debes de añadirlo en el head del documento HTML
+
+<style type="text/css">
+    h1 {
+        color: blue;
+    }
+
+    table {
+        border-collapse: collapse; 
+        border: blue 3px solid; 
+        margin: 10px;
+    }
+
+    th, td {
+        padding: 10px;
+        text-align: center;
+    }
+
+    tr {
+        border: blue 1px solid;
+    }
+
+    td {
+        border: 1px solid blue;
+    }
+
+</style>

@@ -6,7 +6,15 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>Videos u Audios que están almacenados en Local</h1>
-    <video poster="imagenes/video.jpg"></video>
+    <h1>Videos y Audios que están almacenados en Local</h1>
+    <video poster="imagenes/video.jpg">
+        <!-- Principalmente para Chorme, Firefox y Opera -->
+        <source src="videos/TeoremadeThales.webm" type="video/webm"/>
+        <!-- Principalmente para Internet Explorer y Safari -->
+        <source src="videos/TeoremadeThales.mp4" type="video/mp4"/>
+        <source src="videos/TeoremadeThales.ogv" type="video/ogg"/>
+        <img src="imagenes/video.jpg" alt="Video no soportado" />
+        Su navegador no soporta contenido multimedia
+    </video>
 </body>
 </html>

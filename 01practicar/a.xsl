@@ -77,6 +77,67 @@
                 </xsl:if>
             </xsl:for-each>
             
+            /* actividad 7 */
+            <table>
+                <tr>
+                    <th>Nombre</th>
+                    <th>Año</th>
+                </tr>
+                <xsl:for-each select="//ciclo">
+                    <xsl:sort select="decretoTitulo/@año" order="descending"/>
+                    <xsl:if test="position()=1">
+                        <tr>
+                            <td><xsl:value-of select="nombre"/></td>
+                            <td><xsl:value-of select="decretoTitulo/@año"/></td>
+                        </tr>
+                    </xsl:if>
+                </xsl:for-each>
+            </table>
+            /* actividad 8 */
+            <table>
+                <tr>
+                    <th>Nombre</th>
+                    <th>Año</th>
+                </tr>
+                <xsl:for-each select="//ciclo">
+                    <xsl:sort select="decretoTitulo/@año" order="descending"/>
+                    <xsl:if test="position() &lt;= 3">
+                        <tr>
+                            <td><xsl:value-of select="nombre"/></td>
+                            <td><xsl:value-of select="decretoTitulo/@año"/></td>
+                        </tr>
+                    </xsl:if>
+                </xsl:for-each>
+            </table>
+
+            /* actividad 9 */
+            <h1>CHOOSE</h1>
+            <table>
+                <tr>
+                    <th>Ciclo</th>
+                    <th>Año</th>
+                    <th>Grado</th>
+                    <th>Acceso</th>
+                </tr>
+                <xsl:for-each select="//ciclo">
+                    <xsl:sort select="decretoTitulo/@año" order="ascending"/>
+                    <tr>
+                        <td><xsl:value-of select="nombre"/></td>
+                        <td><xsl:value-of select="decretoTitulo/@año"/></td>
+                        <td><xsl:value-of select="grado"/></td>
+                        <td>
+                            <xsl:choose>
+                                <xsl:when test="grado = 'Medio'">
+                                    <xsl:text>Puedes accseder con ESO</xsl:text>
+                                </xsl:when>
+                                <xsl:otherwise>
+                                    <xsl:text>Puedes acceder por Bachiller o un grado medio</xsl:text>
+                                </xsl:otherwise>
+                            </xsl:choose>
+                        </td>
+                    </tr>
+                </xsl:for-each>
+            </table>
         </body>
     </html>
     </xsl:template>

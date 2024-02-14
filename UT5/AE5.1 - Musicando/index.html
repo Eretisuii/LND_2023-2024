@@ -11,25 +11,43 @@
 <body>
     <!-- Contenido de la página de inicio -->
     <header>
-        <nav>
-            <ul>
-                <li><a href="index.html"><img src="img/figuras-menu.png" alt="Musicando"></a></li>
-                <li><a href="musica.html">Música</a></li>
-                <li><a href="cine.html">Cine</a></li>
-                <li><a href="html/generosLiterarios.html">Géneros Literarios</a></li>
-                <li><a href="multimedia.html">Multimedia</a></li>
-                <li><a href="contacto.html">Contáctanos</a></li>
-            </ul>
-        </nav>
+        <h1 id="inicio">La Web de las artes</h1>
+        <img src="img/figuras-menu.png" alt="Musicando" usemap="#mapa_zonas">
+        <map name="mapa_zonas">
+            <area shape="rect" coords="40,80,248,289" href="index.html">
+            <area shape="poly" coords="467,82,598,308,335,308" href="html/musica.html">
+            <area shape="poly" coords="770,114,897,206,848,356,691,356,643,208" href="html/cine.html">
+            <area shape="circle" coords="150,326,219" href="html/generosLiterarios.html">
+            <area shape="poly" coords="369,390,494,390,556,497,494,605,371,604,306,497," href="html/multimedia.html">
+            <area shape="rect" coords="614,428,926,566" href="html/contacto.html">
+        </map>
     </header>
 
-    <!-- Resto del contenido -->
+    <h2>Música</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut illum esse non vel! Sint possimus optio, vel in inventore nostrum quibusdam ducimus reiciendis provident, numquam accusamus asperiores eos hic suscipit!</p>
+    <a href="html/musica.html">Más información...</a>
+    <h2>Cine</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut illum esse non vel! Sint possimus optio, vel in inventore nostrum quibusdam ducimus reiciendis provident, numquam accusamus asperiores eos hic suscipit!</p>
+    <a href="html/cine.html">Más información...</a>
+    <h2>Pintura</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut illum esse non vel! Sint possimus optio, vel in inventore nostrum quibusdam ducimus reiciendis provident, numquam accusamus asperiores eos hic suscipit!</p>
+    <!-- Link para el popup -->
+    <a href="#" id="popup-link">Más información...</a>
+    <!-- contenido popup -->
+    <div id="popup" class="popup">
+        <p>Esta sección no está habilitada!!!</p>
+        <button onclick="closePopup()">Aceptar</button>
+    </div>
+    <script src="js/script.js"></script>
+    <h2>Literatura</h2>
+    <a href="html/generosLiterarios.html" title="esta seccion">Géneros iterarios...</a>
+    <hr>
 
-    <!-- Puedes incluir tu video aquí -->
-
-    <!-- Pie de página -->
     <footer>
-        <!-- Contenido del pie de página -->
+        <p><a href="pdf/Cerebro-y-musica.pdf">Consulta nuestro catálogo en PDF...</a></p>
+        <p><a href="">Solicitar Información SIMPLE...</a></p>
+        <p><a href="">Solicitar información COMPLETA</a></p>
+        <p><a href="#inicio">Inicio</a></p>
     </footer>
 </body>
 </html>

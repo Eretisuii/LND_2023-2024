@@ -1,0 +1,26 @@
+* {
+    margin: auto;
+    padding: auto;
+    box-sizing: border-box;
+}
+
+.contenedor {
+    display: flow-root;
+    background-color: blue;
+    width: 90%;
+    margin-left: 5%;
+}
+
+.articulo {
+    height: 250px;
+    background-color: cadetblue;
+    border: 1px solid blueviolet;
+    margin: 25px 0;
+}
+
+.left {
+    
+    float: left;
+    margin-left: 2.5%;
+    width: 30%;
+}

@@ -67,7 +67,7 @@
             /* actividad 6 */
             <xsl:for-each select="//ciclo">
                 <xsl:sort select="decretoTitulo/@año"/>
-                <xsl:if test="decretoTitulo[@año &gt; 2009]">
+                <xsl:if test="decretoTitulo/@año[. &gt; 2009]">
                     <p>
                     <xsl:value-of select="nombre"/>
                     <xsl:text> (</xsl:text>

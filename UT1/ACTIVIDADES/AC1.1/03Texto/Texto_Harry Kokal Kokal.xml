@@ -4,6 +4,6 @@
         <titulo>XML explicado a los niños</titulo>
         <parrafo>El <abreviatura>XML</abreviatura> define como crear lenguajes de marcas.</parrafo>
         <parrafo>Las marcas se añaden a un documento de texto para añadir información.</parrafo>
-        <xml xmlns="www.google.com"></xml>
+        <http://>www.example.org<http://>
     </texto>
 </textos>

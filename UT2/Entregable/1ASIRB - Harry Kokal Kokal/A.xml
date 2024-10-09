@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE alumnos SYSTEM "AE-Hospital-1ASIRB-HarryKokalKokal.dtd">
+
+<hospital>
+    <pacientes>
+        <paciente id='HKK' sexo='Maculino'>
+        <nombre></nombre>
+        <apellidos></apellidos>
+        <fecha_de_nacimiento></fecha_de_nacimiento>
+        <numero_de_la_seguridada_social></numero_de_la_seguridada_social>
+        <direccion>
+            <calle tipo="avenida" nombre="Bill Evans" numero="4"/>
+            <ciudad>Santa cruz</ciudad>
+            <codigo_postal></codigo_postal>
+        </direccion>
+        <telefonos>
+            <telefono tipo='fijo'>987465464</telefono>
+            <telefono tipo='móvil'>354867484</telefono>
+        </telefonos>
+        </paciente>
+        <medicos>
+            <medico id='' departamento='Cardiología'>
+            <nombre></nombre>
+            <apellidos></apellidos>
+            <especialidad></especialidad>
+            <numero_de_colegiado></numero_de_colegiado>
+            </medico>
+        </medicos>
+        <citas_medicas>
+            <cita>
+
+            </cita>
+        </citas_medicas>
+        <salas>
+    </pacientes>
+
+
+
+
+
+
+</hospital>

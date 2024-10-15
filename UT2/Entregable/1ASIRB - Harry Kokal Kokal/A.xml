@@ -1,42 +1,54 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE alumnos SYSTEM "AE-Hospital-1ASIRB-HarryKokalKokal.dtd">
+<!DOCTYPE hospital SYSTEM "b.dtd">
 
 <hospital>
     <pacientes>
-        <paciente id='HKK' sexo='Maculino'>
-        <nombre></nombre>
-        <apellidos></apellidos>
-        <fecha_de_nacimiento></fecha_de_nacimiento>
-        <numero_de_la_seguridada_social></numero_de_la_seguridada_social>
-        <direccion>
-            <calle tipo="avenida" nombre="Bill Evans" numero="4"/>
-            <ciudad>Santa cruz</ciudad>
-            <codigo_postal></codigo_postal>
-        </direccion>
-        <telefonos>
-            <telefono tipo='fijo'>987465464</telefono>
-            <telefono tipo='móvil'>354867484</telefono>
-        </telefonos>
+        <paciente id='HKK' sexo='Masculino'>
+            <nombre>Harry</nombre>
+            <apellidos>Kokal</apellidos>
+            <fecha_de_nacimiento>05-09-2002</fecha_de_nacimiento>
+            <numero_de_seguridad_social>123456789</numero_de_seguridad_social>
+            <direccion>
+                <via tipo="avenida" nombre="Bill Evans" numero="4"/>
+                <ciudad>Santa Cruz</ciudad>
+                <codigo_postal>38001</codigo_postal>
+            </direccion>
+            <telefonos>
+                <telefono tipo='fijo'>987465464</telefono>
+                <telefono tipo='móvil'>354867484</telefono>
+            </telefonos>
         </paciente>
-        <medicos>
-            <medico id='' departamento='Cardiología'>
-            <nombre></nombre>
-            <apellidos></apellidos>
-            <especialidad></especialidad>
-            <numero_de_colegiado></numero_de_colegiado>
-            </medico>
-        </medicos>
-        <citas_medicas>
-            <cita>
-
-            </cita>
-        </citas_medicas>
-        <salas>
     </pacientes>
 
+    <medicos>
+        <medico id='M01' departamento='Cardiología'>
+            <nombre>John</nombre>
+            <apellidos>Caca</apellidos>
+            <especialidad>Cardiología</especialidad>
+            <numero_de_colegiado>987654321</numero_de_colegiado>
+        </medico>
+    </medicos>
 
+    <salas>
+        <sala id='S01'>
+            <tipo>consulta</tipo>
+            <capacidad>2</capacidad>
+            <equipos_medicos>
+                <equipo>ECG</equipo>
+                <equipo>Máquina de anestesia</equipo>
+            </equipos_medicos>
+        </sala>
+    </salas>
 
-
-
-
+    <citas_medicas>
+        <cita id="C01">
+            <paciente_id>HKK1</paciente_id>
+            <medico_id>M01</medico_id>
+            <sala_id>S01</sala_id>
+            <fecha>10-10-2024</fecha>
+            <hora>10:00</hora>
+            <motivo>Algo</motivo>
+            <acudio>sí</acudio>
+        </cita>
+    </citas_medicas>
 </hospital>

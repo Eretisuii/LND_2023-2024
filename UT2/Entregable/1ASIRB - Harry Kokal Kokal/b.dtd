@@ -1,0 +1,52 @@
+<!ELEMENT hospital (pacientes, medicos, citas_medicas, salas)>
+
+<!-- Pacientes -->
+<!ELEMENT pacientes (paciente+)>
+<!ELEMENT paciente (nombre, apellidos, fecha_de_nacimiento, numero_de_seguridad_social?, direccion, telefonos?)>
+<!ATTLIST paciente id ID #REQUIRED>
+<!ATTLIST paciente sexo (Masculino | Femenino | Otro) #REQUIRED>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT apellidos (#PCDATA)>
+<!ELEMENT fecha_de_nacimiento (#PCDATA)>
+<!ELEMENT numero_de_seguridad_social (#PCDATA)>
+
+<!ELEMENT direccion (via, ciudad, codigo_postal)>
+<!ELEMENT via EMPTY>
+<!ATTLIST via tipo (via | callejón | avenida) #REQUIRED>
+<!ATTLIST via nombre CDATA #REQUIRED>
+<!ATTLIST via numero CDATA #REQUIRED>
+<!ELEMENT ciudad (#PCDATA)>
+<!ELEMENT codigo_postal (#PCDATA)>
+
+<!ELEMENT telefonos (telefono+)>
+<!ELEMENT telefono (#PCDATA)>
+<!ATTLIST telefono tipo (fijo | móvil) #REQUIRED>
+
+<!-- Médicos -->
+<!ELEMENT medicos (medico+)>
+<!ELEMENT medico (nombre, apellidos, especialidad, numero_de_colegiado)>
+<!ATTLIST medico id ID #REQUIRED>
+<!ATTLIST medico departamento CDATA #REQUIRED>
+<!ELEMENT especialidad (#PCDATA)>
+<!ELEMENT numero_de_colegiado (#PCDATA)>
+
+<!-- Salas -->
+<!ELEMENT salas (sala+)>
+<!ELEMENT sala (tipo, capacidad, equipos_medicos?)>
+<!ATTLIST sala id ID #REQUIRED>
+<!ELEMENT tipo (#PCDATA)>
+<!ELEMENT capacidad (#PCDATA)>
+
+<!ELEMENT equipos_medicos (equipo+)>
+<!ELEMENT equipo (#PCDATA)>
+
+<!-- Citas médicas -->
+<!ELEMENT citas_medicas (cita+)>
+<!ELEMENT cita (paciente_id, medico_id, sala_id, fecha, hora, motivo, acudio?)>
+<!ELEMENT paciente_id (#PCDATA)>
+<!ELEMENT medico_id (#PCDATA)>
+<!ELEMENT sala_id (#PCDATA)>
+<!ELEMENT fecha (#PCDATA)>
+<!ELEMENT hora (#PCDATA)>
+<!ELEMENT motivo (#PCDATA)>
+<!ELEMENT asistio (#PCDATA)>
